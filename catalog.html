@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="symbols-nerds/css/symbols-nerds.css" />
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>    
+    <title>Nerds</title>
+</head>
+    <!-- <body onload="swithcSlider()"> -->
+    <body>
+    <div class="container_all">
+       <!--Top-->
+        <div class="top_part top_part_catalog">
+            <div class="containers top">
+                <header>
+                    <img class="logo" src="img/nerds_main.png" alt="logo">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Студия</a></li>
+                            <li><a href="#">Клиенты</a></li>
+                            <li class="current"><a href="#">Магазин</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Корзина</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <h1 class="h1_catalog">Добро пожаловать в магазин<br>готовых макетов</h1>
+            </div>                
+        </div>
+        <!--end of Top-->
+        <!--Main-->
+        <div class="containers main">
+           <form action="get" class="filters">
+              <h2>Стоимость</h2>
+               <div class="range-filter">
+                   <div class="range-controls">
+                       <div class="scale"><div style="margin-left:10px;width:130px;" class="bar"></div></div>
+                       <div class="toggle min-toggle"></div>
+                       <div class="toggle max-toggle"></div>
+                   </div>
+                   <div class="price-controls">
+                       от <input class="min-price" type="text" value="0">
+                       до <input class="max-price" type="text" value="15000">
+                   </div>
+               </div>          
+              <h2>Сетка</h2>
+              <div class="grid">
+                  <label class="label">
+                      <input type="radio" name="grid" checked>
+                      <span class="label-text">Адаптивная</span>
+                  </label>
+                  <label class="label">
+                      <input type="radio" name="grid">
+                      <span class="label-text">Фиксированная</span>
+                  </label>
+                  <label class="label">
+                      <input type="radio" name="grid">
+                      <span class="label-text">Резиновая</span>
+                  </label>
+               </div>  
+              <h2>Особенности</h2>
+              <div class="features">
+                  <label class="label">
+                      <input type="checkbox" checked>
+                      <span class="label-text">Слайдер</span>
+                  </label>
+                  <label class="label">
+                      <input type="checkbox">
+                      <span class="label-text">Блок преимуществ</span>
+                  </label>
+                  <label class="label">
+                      <input type="checkbox" checked>
+                      <span class="label-text">Новости</span>
+                  </label>
+                  <label class="label">
+                      <input type="checkbox">
+                      <span class="label-text">Галерея</span>
+                  </label>
+                  <label class="label">
+                      <input type="checkbox">
+                      <span class="label-text">Корзина</span>
+                  </label>                  
+              </div>
+               <input type="button" class="button grey" value="Показать">
+           </form>
+           <div class="products">
+              <div class="sorting">
+                  <p>Сортировать</p>
+                  <ul>
+                       <li><a href="#">По цене</a></li>
+                       <li><a href="#">По типу</a></li>
+                       <li><a href="#">По функционалу</a></li>
+                  </ul>                  
+                  <span class="icon-up-dir"></span>
+                  <span class="icon-down-dir"></span>
+              </div>
+              <div class="product_item">
+                 <div class="product_item_header">
+                     <div class="circle"></div>
+                     <div class="circle"></div>
+                     <div class="circle"></div>
+                 </div>
+                  <img src="img/aviator.jpg" alt="aviator">
+              </div>
+               <div class="product_item">
+                   <div class="product_item_header">
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                   </div>
+                   <img src="img/sunset.jpg" alt="sunset">
+                   <div class="cena">
+                       <h2>Sunset</h2>
+                       <p>Интернет магазин с личным кабинетом</p>
+                       <div class="button red"><a href="">10000 P.</a></div>
+                   </div>
+               </div>
+               <div class="product_item">
+                   <div class="product_item_header">
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                   </div>
+                   <img src="img/forte.jpg" alt="forte">
+               </div>
+               <div class="product_item">
+                   <div class="product_item_header">
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                   </div>
+                   <img src="img/modern.jpg" alt="modern">
+               </div>
+               <div class="product_item">
+                   <div class="product_item_header">
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                       <div class="circle"></div>
+                   </div>
+                   <img src="img/avenue.jpg" alt="avenue">
+               </div>                                             <div class="product_item">
+               <div class="product_item_header">
+                   <div class="circle"></div>
+                   <div class="circle"></div>
+                   <div class="circle"></div>
+               </div>
+               <img src="img/dovetail.jpg" alt="dovetail">
+               </div>
+               <div class="paginator">
+                   <div class="page_item button grey"><a href="#">1</a></div>
+                   <div class="page_item button grey"><a href="#">2</a></div>
+                   <div class="page_item button grey"><a href="#">3</a></div>
+                   <div class="page_next button grey"><a href="#">Следующая</a></div>
+               </div>                
+           </div>          
+        </div>
+        <!--end of Main-->                           
+        <!-- map-->
+        <div class="contacts-wrapper">
+        <div class="map" id="map"></div>
+        <div class="address">
+            <h3>Nёrds design studio</h3>
+            <p>191186, Санкт-Петербург,<br>
+                ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. +7 (812) 275-75-75</p>
+            <div class="send_us_btn button red" onclick="openForm('contact_form')"><a>Напишите нам</a></div> 
+        </div>
+        </div>        
+        <!--end of map-->
+        <!--footer-->
+        <footer>
+            <div class="containers social">
+                <div class="social_icons">
+                    <div class="icons"><span class="icon-vk"></span></div>
+                    <div class="icons"><span class="icon-facebook"></span></div>
+                    <div class="icons"><span class="icon-instagramm"></span></div>                    
+                </div>
+                <div class="friends">
+                    <h1>Давайте дружить, это выгодно!</h1>
+                    <p>Скидка 10% для друзей из социальных сетей.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="dark" id="contact_form">
+        <div class="form_bg">
+            <div class="close-button" onclick="closeForm('contact_form')" >
+                <span class="close-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" enable-background="new 0 0 40 40">
+                        <style type="text/css">
+                            .cross {fill:white}
+                        </style>
+                        <polygon class="cross" points="9,12 12,9 20,17 28,9 31,12 23,20 31,28 28,31 20,23 12,31 9,28 17,20 "/>		
+                    </svg>
+                </span>
+            </div>
+            <form method="post" class="write_us_form">
+                <label>Ваше имя:</label>
+                <input type="text" placeholder="Представьтесь пожалуйста" name="name" required>
+                <label>Ваш e-mail:</label>
+                <input type="email" placeholder="Для отправки ответа" name="email" required>
+                <label>Текст письма:</label>
+                <textarea placeholder="В свободной форме" name="letter_text" required></textarea>
+                <input type="button" class="button red" value="Отправить" onclick="closeForm('contact_form')">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
