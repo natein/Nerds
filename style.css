@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     font: 15px Roboto, sans-serif;
-    font-weight:600;
+    font-weight:500;
     line-height: 1.2em;
 }
 .button {
@@ -14,7 +14,7 @@
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight:600;
+    font-weight:500;
     margin-top: 12px;
     display:inline-block;
 }
@@ -343,7 +343,7 @@ h3 {
     font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight:600;
+    font-weight:500;
     margin-top: 12px;
     display:inline-block;  
 }
